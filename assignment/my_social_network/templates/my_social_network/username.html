@@ -1,0 +1,11 @@
+<HTML>
+  <body>
+    
+    <h3>Following</h3>
+    <ul> {% for userlink in following_links %}
+      <li>{{ userlink.from_user.username }}</li>
+    {% endfor %}</ul>
+    
+  </body>
+  
+</HTML>

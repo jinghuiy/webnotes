@@ -1,0 +1,11 @@
+<HTML>
+  
+  <body>
+    
+    <h3>Followers</h3>
+    <ul> {% for userlink in follower_links %}
+      <li>{{ userlink.to_user.username }}</li>
+    {% endfor %}</ul>
+  </body>
+  
+</HTML>
